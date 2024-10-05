@@ -47,7 +47,7 @@ def geogre_to_jcal(birth):
     
     jcal_date = jdatetime.datetime.fromgregorian(datetime=birth) #it converts to Jcal
   
-    print("youre jcal is :",jcal_date.strftime('%Y/%m/%d   %H:%M:%S'))  # Adding a space between the date and time
+    print("your jcal birth date is :",jcal_date.strftime('%Y/%m/%d   %H:%M:%S'))  # Adding a space between the date and time
 
 
 
