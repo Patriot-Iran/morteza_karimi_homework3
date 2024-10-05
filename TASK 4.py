@@ -44,8 +44,9 @@ def geogre_to_jcal(birth):
 
     it returns accurate the accurate birth day in jcal
     """
-    jcal_date = jdatetime.datetime.fromgregorian(datetime=birth)
-    # Format with space between date and time
+    
+    jcal_date = jdatetime.datetime.fromgregorian(datetime=birth) #it converts to Jcal
+  
     print("youre jcal is :",jcal_date.strftime('%Y/%m/%d   %H:%M:%S'))  # Adding a space between the date and time
 
 
