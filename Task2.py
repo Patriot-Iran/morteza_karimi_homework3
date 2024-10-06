@@ -18,7 +18,7 @@ def fraction_result(numerator,denominator):
 
 
 #it receives numerator
-numerator=float (input("Enter the numrator of the fraction:\n"))
+numerator=float (input("Enter the numerator of the fraction:\n"))
 #it receives denominator
 denominator=float (input("Enter the of denominator the fraction:\n"))
 
